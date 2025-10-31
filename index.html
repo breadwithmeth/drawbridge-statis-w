@@ -15,7 +15,8 @@
     
         <!-- SEO basics -->
         <meta name="description" content="DRAWBRIDGE: MVP за неделю. Считаем ROI, проектируем архитектуру, выпускаем работающий продукт. Разработка веб/мобилей, интеграции 1С, телефония, AI, DevOps и аналитика.">
-        <meta name="robots" content="index, follow">
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+        <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
         <link rel="canonical" href="https://drawbridge.kz/">
     <meta name="theme-color" content="#000000">
     <meta property="og:site_name" content="DRAWBRIDGE">
@@ -29,12 +30,15 @@
         <meta property="og:description" content="Считаем ROI, проектируем архитектуру, выпускаем работающий продукт. Разработка веб/мобилей, интеграции 1С, телефония, AI, DevOps и аналитика.">
         <meta property="og:url" content="https://drawbridge.kz/">
         <meta property="og:image" content="https://drawbridge.kz/logo.png">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
 
         <!-- Twitter Card -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="DRAWBRIDGE — MVP за неделю">
         <meta name="twitter:description" content="Считаем ROI, проектируем архитектуру, выпускаем работающий продукт.">
         <meta name="twitter:image" content="https://drawbridge.kz/logo.png">
+        <meta name="author" content="DRAWBRIDGE">
 
             <!-- JSON-LD Structured Data -->
             <script type="application/ld+json">
@@ -109,7 +113,53 @@
                         "name": "Аналитика и BI",
                         "description": "SQL-отчёты, дашборды, A/B-тесты, продуктовые метрики.",
                         "provider": { "@id": "https://drawbridge.kz/#org" }
-                    }
+                            },
+                            {
+                                "@type": "FAQPage",
+                                "@id": "https://drawbridge.kz/#faq",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Правда ли MVP можно сделать за неделю?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Да. Мы заранее оценим и согласуем скоуп: прототип, ключевые сценарии, интеграции. Остальное уходит во вторую итерацию."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Какие интеграции вы делаете чаще всего?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "1С (обмен по API, внешние компоненты), платежи, телефония (Asterisk/FreePBX), склад/CRM, аналитика событий и метрики."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Можно ли подключить AI для обработки документов?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Да. Парсим PDF/DOCX, извлекаем сущности, строим проверки по правилам или проводим мед‑аудит отчётов."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Как вы обеспечиваете качество и сроки?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Считаем ROI, проектируем архитектуру, настраиваем CI/CD и метрики. MVP выкатываем в коротких итерациях с демо."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Берёте поддержку после запуска?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Да. Следим за стабильностью, производительностью и показателями продукта с первого дня."
+                                        }
+                                    }
+                                ]
+                            }
                 ]
             }
             </script>
@@ -203,6 +253,32 @@
             </div>
             <hr>
         </div>
+        <!-- FAQ Section -->
+        <!-- <section id="faq" aria-labelledby="faq-title">
+            <h2 id="faq-title">FAQ — Частые вопросы</h2>
+            <div class="faq-list">
+                <details>
+                    <summary>Правда ли MVP можно сделать за неделю?</summary>
+                    <p>Да. Мы заранее оценим и согласуем скоуп: прототип, ключевые сценарии, интеграции. Остальное уходит во вторую итерацию.</p>
+                </details>
+                <details>
+                    <summary>Какие интеграции вы делаете чаще всего?</summary>
+                    <p>1С (обмен по API, внешние компоненты), платежи, телефония (Asterisk/FreePBX), склад/CRM, аналитика событий и метрики.</p>
+                </details>
+                <details>
+                    <summary>Можно ли подключить AI для обработки документов?</summary>
+                    <p>Да. Парсим PDF/DOCX, извлекаем сущности, строим проверки по правилам или проводим мед‑аудит отчётов.</p>
+                </details>
+                <details>
+                    <summary>Как вы обеспечиваете качество и сроки?</summary>
+                    <p>Считаем ROI, проектируем архитектуру, настраиваем CI/CD и метрики. MVP выкатываем в коротких итерациях с демо.</p>
+                </details>
+                <details>
+                    <summary>Берёте поддержку после запуска?</summary>
+                    <p>Да. Следим за стабильностью, производительностью и показателями продукта с первого дня.</p>
+                </details>
+            </div>
+        </section> -->
         <div id="page5">
             <div id="footer">
                 <div id="connect">

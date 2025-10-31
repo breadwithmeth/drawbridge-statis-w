@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://drawbridge.kz/</loc>
+    <lastmod>2025-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://drawbridge.kz/logo.png</image:loc>
+      <image:caption>Логотип DRAWBRIDGE</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://drawbridge.kz/images/20251012_0343_Monochrome%20Controller%20Macro_simple_compose_01k7aq0xzee1rv5a2rjvd15t5s.png</image:loc>
+      <image:caption>Монокромный контроллер — визуал о технологичности</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://drawbridge.kz/images/20251012_0406_%D0%A0%D1%83%D0%BA%D0%B0%20%D0%B8%20%D0%BF%D0%BB%D0%B0%D0%BD%D1%88%D0%B5%D1%82_simple_compose_01k7ara75afp5sas4qj5e7bhkw.png</image:loc>
+      <image:caption>Рука и планшет — визуал о работе с продуктом и данными</image:caption>
+    </image:image>
   </url>
 </urlset>
